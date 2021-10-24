@@ -1,12 +1,3 @@
-def bsf(m):
-	o=0
-	while ((m&1)==0):
-		o+=1
-		m>>=1
-	return o
-
-
-
 def root(n,m):
 	a=n*(n+6)+1
 	b=(n+1)*4
